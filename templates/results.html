@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<p>Tu ingresaste estos datos</p>
+<table>
+<tr><td>Compras totales:</td><td>{{ the_comp_tot }}</td></tr>
+<tr><td>Devoluciones:</td><td>{{ the_dev }}</td></tr>
+<tr><td>Descuentos:</td><td>{{ the_des }}</td></tr>
+</table>
+<p>De acuerdo a los datos, el resultado es:</p>
+<h3>{{ the_results }}</h3>
+    <p><a href="/inicialpage">Regresar a casa</a></p>
+{% endblock %}

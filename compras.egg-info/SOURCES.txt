@@ -1,0 +1,6 @@
+compras.py
+setup.py
+compras.egg-info/PKG-INFO
+compras.egg-info/SOURCES.txt
+compras.egg-info/dependency_links.txt
+compras.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' action='//costo_de_venta'>
+<table>
+<p>Ingresa los valores correspondientes</p>
+    <tr><td>Compras Netas:</td><td><input name='cn' type='TEXT' width='60'></td></tr>
+    <tr><td>Inventario inicial:</td><td><input name='in' type='TEXT' width='60'></td></tr>
+</table>
+<p>Presiona el boton</p>
+<p><input value='Calcular' type='SUBMIT'></p>
+</form>
+    <p><a href="/inicialpage">Regresar a casa</a></p>
+{% endblock %}

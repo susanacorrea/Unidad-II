@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' action='/compras_netas'>
+<table>
+<p>Ingresa los valores correspondientes</p>
+    <tr><td>Compras totales:</td><td><input name='cpt' type='TEXT' width='60'></td></tr>
+    <tr><td>Devoluciones:</td><td><input name='dev' type='TEXT' width='60'></td></tr>
+    <tr><td>Descuentos:</td><td><input name='des' type='TEXT' width='60'></td></tr>
+</table>
+<p>Presiona el boton</p>
+<p><input value='Calcular' type='SUBMIT'></p>
+</form>
+    <p><a href="/inicialpage">Regresar a casa</a></p>
+{% endblock %}
